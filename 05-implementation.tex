@@ -1,22 +1,23 @@
-\section{\translate{Methodology}}\label{sec:method}
-(Swedish: Metod) Summarize and introduce the methodology chapter. The method section is the point at which your chosen method and intended procedure are presented. This section should contain information for the reader to interpret your results and repeat your work, i.e. in order to check the results. Here, the tools, assumptions, mathematical models, performance measures and assessment criteria are presented.
+\section{\translate{Implementation}}\label{sec:implementation} 
+(Swedish: Implementation) In this chapter you will explain all the technical details of your work. Start this chapter with an overview of your work and an overview block figure with the protocols, algorithms, and technologies written out. Basically, as form of UML component diagram. You can also use storyboards, mock-up designs, state diagrams to show the overall structure. 
 
-\subsection{\translate{Scientific method description}}
-(Swedish: Vetenskaplig metod) Explain your scientific method. Will you be using a quantitative or qualitative method? Most work in computer engineering will be \emph{quantitative} studies. Will you follow the design science methodology or some other methodology, such as action research method, descriptive research design, correlational research design, or experimental research design. 
+See Figure \ref{fig:overview} for an example. All figures must be references from the text. 
 
-Explain how you will scientifically attack and work with each of the scientific goals/research questions. One paragraph per goal/question is often enough.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=9cm]{Figures/overview.png}
+    \caption{System overview}\label{fig:overview}
+\end{figure}
+
+\subsection{First part of the overview figure}
+Use a top-down approach, divide and conquer, split the figure into relevant pieces. Explain each piece in detail, use titles that can be found in the overview figure. Use flow charts, UML diagram, pseudocode etc. but no real code. Refer to the appendix for the actual source code. Motivate your implementation choices.
 
 
-\subsection{\translate{Project}/\translate{Work method
-    description}}
-(Swedish: Projektmetod/Arbetsmetod) Explain your project and/or working method. Split the work into a number of achievable milestones/phases. 
+\subsection{Another part of the overview figure}
+Another piece of the solution.
 
-Many theses work in computer engineering typically follow either a \emph{waterfall} inspired method akin to the structure of this report: \emph{Theory} (in which you will gain more knowledge about the requirements to be able to solve the problem),\emph{Pre-study} (where you will further refine analyze your requirements, approach, design, etc.), \emph{Implementation} (where you will build some artifact), \emph{Measure} (in which you will perform measurements on your artifact), and \emph{Evaluate} (where you will analyze and evaluate your results and measurements). 
+\subsection{Etc.\ until all parts are covered from the overview figure}
+Another piece of the solution. Etc.\
 
-Or a more \emph{design science} inspired structure: \emph{Identify problems} (in which you define the problem and show importance), \emph{Define objectives} (in which you define requirements, etc.), \emph{Design \& development} (where you will build some artifact), \emph{Demonstration} (where you use the artifact to solve the problem), \emph{Evaluation} (where you observe its effectiveness), \emph{Communication} (making your results public). 
-
-Sometimes a more design-based research method is applied: \emph{Grounding} (where you start by setting the basis and settings for the work), \emph{Conjecturing} (where you make initial an embodiment and assertions), \emph{Iteration} (where you iteratively create, test, and re-conjecture, to gather data), and finally \emph{Reflecting} (where you reflect upon your design and results).
-
-And sometimes a more \emph{design thinking} inspired structure: \emph{Empathize} (where you gain real insight into users and their needs), \emph{Define} (where you define the problem statement in a human-centered manner.), \emph{Ideate} (where you identify innovative solutions to the problem statement you’ve created), \emph{Prototype} (where you create possible solutions), \emph{Test} (where you test solutions to derive a deep understanding of the product and its users). 
-
-Explain how you will work and do within each of these milestones/phases. Justify your choice of methodology/model. What metrics will you use to evaluate your work? Comment on the method's possible weaknesses and problems that may arise during actual implementation. A flowchart can help in visualizing the phases/milestones. One paragraph per milestone/phase is often enough to write.
+\subsection{\translate{Measurement}/\translate{Evaluation setup}}
+Remember to explain how you will measure/evaluate your implementation and how your test bench has been built/setup/implemented.

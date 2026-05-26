@@ -1,23 +1,50 @@
-\section{\translate{Choice of approach} / \translate{System design} / \translate{Pre-study}}\label{sec:prestudy} 
-(Swedish: Val av angrepssätt/Systemdesign/Inledande studie) Choose only one of the headlines. This chapter will be substantially different depending on your thesis topic, direction, and scientific level. But in this chapter, you will present the different options you have faced and made your choice between, or you will explain the work that has led up to your implementation, and your analysis of different requirement.      
+\section{\translate{Results}}\label{sec:results}
+(Swedish: Resultat) Summarize and introduce your results
 
-\subsection{\translate{Requirements capturing}/\translate{Approach alternatives}}
-(Swedish: Kravfångst/Angreppsalternativ) Explain the requirement capturing and the identified requirements, or the different approach alternatives.
+\subsection{\translate{Resulting application}/\translate{Resulting system}}
+(Swedish: Färdiga applikationen/systemet) Present your resulting work. Screenshots, features, etc.
 
-\subsubsection{Requirement X/Approach X}
-Present and summarize the potential approaches or requirements that you have considered. Make them even in length and style, to be of equal in importance.
+\subsection{\translate{Measurement results}}
+(Swedish: Mätresultat) Present your measurements. How well does it perform? Present the results objectively, with as little bias as possible. Use tables, graphs, etc.
 
-Continue the list with all alternatives/requirement, one heading for each.
+You can find an example table below. See Table \ref{tab:measurements}.
+\begin{table}[h]
+    \caption{Measured times for the model.}
+    \label{tab:measurements}
+    \begin{tabular}{c c c c c}
+        & Shortest (ms) & Longest (ms) & Average (ms) & Stdev (ms)\\
+        \toprule
+        Model one & 10 & 30 & 20 & 5 \\
+        \midrule 
+        Model two & 20 & 40 & 35 & 3 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
+Here is an example of a line graph. See Figure \ref{fig:line}.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=8cm]{Figures/graph1.png}
+    \caption{Line graph example.}\label{fig:line}
+\end{figure}
 
-\subsubsection{Another requirement/alternative}
-Another requirement or potential approach.
+\newpage
 
-\subsubsection{Etc.\ until all has been covered}
-Another, etc.
+Here is an example of a bar chart with standard deviation whiskers. See \ref{fig:bar}.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=8cm]{Figures/graph2.png}
+    \caption{Bar chart example.}\label{fig:bar}
+\end{figure}
 
-\subsection{\translate{Requirement analysis}/\translate{Comparison of approaches}}
-(Swedish: Kravanalys/Jämförelse av angreppssätt) Analyze the identified requirements, compare different approaches to another, benefits, drawbacks? Pros vs cons? A table for clear comparison can be used, for example a Pugh matrix.
+Here is an example boxplot. See~\cref{fig:box}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=8cm]{Figures/graph3.png}
+    \caption{Boxplot example.}\label{fig:box}
+\end{figure}
 
-\subsection{\translate{Proposed approach}/\translate{Chosen approach}}
-(Swedish: Föreslagen/Utvalt angreppssätt) Present your proposed or chosen approach. It is very important to motivate why this was chosen over the others. Connect back to your overall aim and problem statement, to ensure that the chosen approach actually can answer your scientific goals/research questions.
+Here is an example equation. See Equation \ref{eqn:example}.
+\begin{equation} \label{eqn:example}
+  P_{i,j} = C\frac{P_iG_{i,j}}{d^a_{i,j}}
+\end{equation}
