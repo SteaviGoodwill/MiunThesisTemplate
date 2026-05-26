@@ -1,63 +1,46 @@
-\ProvidesDictionary{miunthesis}{English}
-\providetranslation{Spring}{Spring}
-\providetranslation{Fall}{Fall}
-\providetranslation{Semester}{Semester}
-\providetranslation{Year}{Year}
-\providetranslation{Main field of study}{Main field of study}
-\providetranslation{Computer Science}{Compuer Science}
-\providetranslation{Credits}{Credits}
-\providetranslation{Supervisor}{Supervisor}
-\providetranslation{Examiner}{Examiner}
-\providetranslation{Course code}{Course code}
-\providetranslation{Registration number}{Registration number}
-\providetranslation{Programme}{Programme}
-\providetranslation{Acknowledgements}{Acknowledgements}
-\providetranslation{Foreword}{Foreword}
-\providetranslation{Terminology}{Terminology}
-\providetranslation{Notation}{Notation}
-\providetranslation{Introduction}{Introduction}
-\providetranslation{Background and motivation}{Background and motivation}
-\providetranslation{Overall aim and problem statement}{Overall aim and problem statement} 
-\providetranslation{Introduction}{Introduction}
-\providetranslation{Scope}{Scope}
-\providetranslation{Scientific goals}{Scientific goals}
-\providetranslation{Research questions}{Research questions}
-\providetranslation{Verifiable goals}{Verifiable goals}
-\providetranslation{Outline}{Outline}
-\providetranslation{Division of work}{Division of work}
-\providetranslation{Theory}{Theory}
-\providetranslation{Related work}{Related work}
-\providetranslation{Methodology}{Methodology}
-\providetranslation{Scientific method description}{Scientific method description}
-\providetranslation{Project method description}{Project method description}
-\providetranslation{Work method description}{Work method description}
-\providetranslation{Project evaluation method}{Project evaluation method}
-\providetranslation{Choice of approach}{Choice of approach}
-\providetranslation{System design}{System design}
-\providetranslation{Pre-study}{Pre-study}
-\providetranslation{Requirements capturing}{Requirements capturing}
-\providetranslation{Approach alternatives}{Approach alternatives}
-\providetranslation{Requirement analysis}{Requirement analysis}
-\providetranslation{Comparison of approaches}{Comparison of approaches}
-\providetranslation{Proposed approach}{Proposed approach}
-\providetranslation{Chosen approach}{Chosen approach}
-\providetranslation{Implementation}{Implementation}
-\providetranslation{Design}{Design}
-\providetranslation{Measurement}{Measurement}
-\providetranslation{Evaluation setup}{Evaluation setup}
-\providetranslation{Results}{Results}
-\providetranslation{Resulting application}{Resulting application}
-\providetranslation{Resulting system}{Resulting system}
-\providetranslation{Discussion}{Discussion}
-\providetranslation{Analysis and discussion of results}{Analysis and discussion of results}
-\providetranslation{Project method discussion}{Project method discussion}
-\providetranslation{Scientific discussion}{Scientific discussion}
-\providetranslation{Consequence analysis}{Consequence analysis}
-\providetranslation{Recommendation}{Recommendation}
-\providetranslation{Ethical and societal discussion}{Ethical and societal discussion}
-\providetranslation{Conclusion}{Conclusion}
-\providetranslation{Future Work}{Future Work}
-\providetranslation{Appendice}{Appendice}
-\providetranslation{List of Figures}{List of Figures}
-\providetranslation{List of Tables}{List of Tables}
-\providetranslation{List of Algorithms}{List of Algorithms}
+@article{attapangittya2003social,
+    title={Social studies in gibberish},
+    author={Attapangittya, Jay},
+    journal={Quarterly Review of Doublespeak},
+    volume={20},
+    number={1},
+    pages={9--10},
+    year={2003},
+    publisher={Jibberish},
+    note = {(Example of a reference to article in scientific journal)}
+}
+
+@inproceedings{smith2004adaptive,
+    title={Adaptive filtering in data communications with self improved error reference},
+    author={Smith, Jay and Jones, Ray and Trello, Kay},
+    booktitle={15th IEEE Int. Conf. on Wireless Communications},
+    pages={65--68},
+    year={2004},
+    note = {(Example of a reference to an article in a scientific conference)}
+}
+
+@book{hayes2007operations,
+    title={Operations, Strategy, and Technical Knowledge},
+    author={Hayes, Ray and Pisano, Guy and Wheelwright, Sev.},
+    year={2007},
+    address={Hoboken, USA},
+    publisher={Wiley},
+    note = {(Example of a reference to a book)}
+}
+
+@online{wilson2023computers,
+    title={Computers ranked as key literacy},
+    author={Wilson-Clark, C},
+    journal={The Atlanta Journal Constitution, para. 3, March 29, 2007},
+    url={http://www.thewest.com.au},
+    urldate = {2007-03-29},
+    note = {(Example of a reference to an online source)}
+}
+
+@mastersthesis{kawasaki1993parametric,
+    author = {Kawasaki, Nay},
+    title = {Parametric study of thermal and chemical nonequilibrium nozzle flow},
+    school = {Dept. Electron. Eng., Osaka Univ., Osaka, Japan,},
+    year = {1993},
+    note = {(Example of a reference to another thesis)}
+}

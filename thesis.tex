@@ -1,81 +1,64 @@
-%Author of the LaTeX-class is Lennart Franked
-%Main author of the contents in the thesis template is Stefan Forsström at Mid Sweden University
-
-%When writing your thesis in Swedish, only change in the documentclass from English to Swedish. All
-%section headings that have a translate will automatically be changed to the swedish translation.
-
-%\documentclass[english]{miunthesis}
-\documentclass[english]{miunthesis}
-\usepackage{csquotes}
-\usepackage{booktabs}
-\usepackage{float}
-\usepackage{newfloat}
-\usepackage[]{appendix}
-
-\addbibresource{literature.bib}
-
-\title{Title}
-\subtitle{Subtitle}
-\author{Author}
-
-\projecttype{course name/specialisation from the course syllabus}
-
-\fieldofstudy{Computer Science}
-\coursecredits{30 hp}
-
-\supervisor{John Doe}
-\examiner{Nomen Nescio}
-
-\coursecode{DTXXX} % Optional
-\registrationnr{DT-085H-WER} % Optional
-
-\studyprogramme{Master programme} % Optional
-
-\begin{document}
-  \maketitle
-  \pagenumbering{roman}
-  \includepdf[pages=1]{Diva_publish.pdf}
-  \newpage
-  \printabstract
-  
-  \include{00-acknowledgements}
-  \newpage
-  
-  \tableofcontents
-  \newpage
-
-  \phantomsection
-  \listoffigures
-  \addcontentsline{toc}{section}{\translate{List of Figures}}
-  \newpage
-
-  \phantomsection
-  \listoftables
-  \addcontentsline{toc}{section}{\translate{List of Tables}}
-  \newpage
-
-  \phantomsection
-  \listofalgorithms
-  \addcontentsline{toc}{section}{\translate{List of Algorithms}}
-  \newpage
-
-  \include{00-terminology}
-  \newpage
-  \pagenumbering{arabic}
-  \include{01-intro}
-  \include{02-theory}
-  \include{03-method}
-  \include{04-prestudy}
-  \include{05-implementation}
-  \include{06-result}
-  \include{07-discussion}
-  \include{08-conclusions}
-  \addcontentsline{toc}{section}{\translate{References}}
-  \printbibliography{}
-  \newpage\clearpage
-  \pagestyle{fancy}
-  \setcounter{page}{1}
-  \appendix
-  \noappendicestocpagenum
-  \include{Appendices/appA}
-\end{document}
+\ProvidesDictionary{miunthesis}{Swedish}
+\providetranslation{Spring}{Vår} 
+\providetranslation{Fall}{Höst}
+\providetranslation{Semester}{Termin}
+\providetranslation{Year}{År}
+\providetranslation{Main field of study}{Huvudämne}
+\providetranslation{Computer Science}{Datorteknik}
+\providetranslation{Credits}{Högskolepoäng}
+\providetranslation{Supervisor}{Handledare}
+\providetranslation{Examiner}{Examinator}
+\providetranslation{Course code}{Kurskod}
+\providetranslation{Registration number}{Registreringsnummer}
+\providetranslation{Programme}{Utbildningsprogram}
+\providetranslation{Acknowledgements}{Tack}
+\providetranslation{Foreword}{Förord}
+\providetranslation{Terminology}{Terminologi}
+\providetranslation{Notation}{Notation}
+\providetranslation{Introduction}{Inledning}
+\providetranslation{Background and motivation}{Bakgrund och motivering}
+\providetranslation{Overall aim and problem statement}{Syfte och problemformulering}
+\providetranslation{Introduction}{Inledning}
+\providetranslation{Scope}{Avgränsningar}
+\providetranslation{Scientific goals}{Vetenskapsmål}
+\providetranslation{Research questions}{Forskningsfrågor}
+\providetranslation{Verifiable goals}{Verifierbara mål}
+\providetranslation{Outline}{Översikt}
+\providetranslation{Division of work}{Fördelning av arbetet}
+\providetranslation{Theory}{Teori}
+\providetranslation{Related work}{Relaterat arbete}
+\providetranslation{Methodology}{Metod}
+\providetranslation{Scientific method description}{Vetenskaplig metod}
+\providetranslation{Project method description}{Projektmetod}
+\providetranslation{Work method description}{Arbetsmetod}
+\providetranslation{Project evaluation method}{Utvärderingsmetod}
+\providetranslation{Choice of approach}{Val av angrepssätt}
+\providetranslation{System design}{Systemdesign}
+\providetranslation{Pre-study}{Inledande studie}
+\providetranslation{Requirements capturing}{Kravfångst}
+\providetranslation{Approach alternatives}{Ansatsalternativ}
+\providetranslation{Requirement analysis}{Kravanalys}
+\providetranslation{Comparison of approaches}{Jämförelse av ansatser}
+\providetranslation{Proposed approach}{Föreslagen ansats}
+\providetranslation{Chosen approach}{Vald ansats}
+\providetranslation{Implementation}{Implementation}
+\providetranslation{Design}{Design}
+\providetranslation{Measurement}{Mätuppställning}
+\providetranslation{Evaluation setup}{Utvärderingupplägg}
+\providetranslation{Results}{Resultat}
+\providetranslation{Resulting application}{Färdiga applikationen}
+\providetranslation{Resulting system}{Färdiga systemet}
+\providetranslation{Discussion}{Diskussion}
+\providetranslation{Analysis and discussion of results}{Diskussion och analys av resultat}
+\providetranslation{Project method discussion}{Metodsdiskussion}
+\providetranslation{Scientific discussion}{Vetenskaplig diskussion}
+\providetranslation{Consequence analysis}{Konsekvensanalys}
+\providetranslation{Recommendation}{Rekommendation}
+\providetranslation{Ethical and societal discussion}{Etiska och samhälleliga aspekter}
+\providetranslation{Conclusion}{Slutsats}
+\providetranslation{Future Work}{Framtida arbete}
+\providetranslation{References}{Referenser}
+\providetranslation{Appendice}{Bilaga}
+\providetranslation{List of Figures}{Figurer}
+\providetranslation{List of Tables}{Tabeller}
+\providetranslation{List of Algorithms}{Algoritmer}
