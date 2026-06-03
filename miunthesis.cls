@@ -4,15 +4,11 @@
 \ProvidesClass{miunthesis}
 
 %% Required packages
-
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
 \RequirePackage[]{babel}
-
-
 \RequirePackage[]{translator}
 \usedictionary{miunthesis}
-
 \RequirePackage{algorithm}
 \RequirePackage{etoolbox}
 
@@ -24,7 +20,6 @@
 \RequirePackage{setspace}
 \RequirePackage{graphicx}
 \RequirePackage{pdfpages}
-
 
 %Set timeformat
 \RequirePackage[yyyymmdd]{datetime}
@@ -167,18 +162,8 @@
 
 \setcounter{tocdepth}{3}
 \setcounter{secnumdepth}{3}
-
-
-
-
-
-
-
-
 \renewcommand{\dateseparator}{--}
-
 \renewcommand{\headrulewidth}{0pt}
-
 
 \newcommand{\printsubtitle}{%
 \ifdefined\@miunthesis@subtitle{%
@@ -218,8 +203,6 @@
   \fi
 }
 
-
-
 \newif\if@titlepage
 \@titlepagetrue
 
@@ -247,7 +230,6 @@
     \\
     \large \@author \par
     \vspace*{115mm}
-
 
     \begin{spacing}{1.2}
     \footnotesize{\@miunthesis@projecttype}\\
@@ -277,7 +259,6 @@
   \pagestyle{fancy}
   \fancyhf{}
   \fancyfoot[C]{\thepage}
-
 
 \linespread{1.05}
 
@@ -310,8 +291,6 @@
                                        {1pt \@plus -1ex \@minus -.2ex}%
                                       {\ssfamily\normalsize\bfseries}}
 
-
-
 \makeatletter
 
 \renewcommand{\@seccntformat}[1]{%
@@ -320,14 +299,7 @@
 
 \makeatother
 
-
 %% Table of Contents
-% \renewcommand{\cftsecfont}{\bfseries\sffamily}
-% \renewcommand{\cftsubsecfont}{\sffamily}
-% \renewcommand{\cftsubsubsecfont}{\sffamily}
-% \renewcommand{\cftsecpagefont}{\sffamily}
-% \renewcommand{\cftsubsecpagefont}{\sffamily}
-% \renewcommand{\cftsubsubsecpagefont}{\sffamily}
 \renewcommand{\contentsname}{Table of Contents}
 % Title style
 \renewcommand{\cfttoctitlefont}{\sffamily\bfseries\Huge}
@@ -351,8 +323,6 @@
 \cftsetindents{section}{0em}{2.8em}
 \cftsetindents{subsection}{0em}{2.8em}
 \cftsetindents{subsubsection}{0em}{2.8em}
-
-
 
 %% List of Algorithm, Figures, Tables
 \renewcommand{\listalgorithmname}{\large\bfseries\sffamily\translate{List of Algorithms}\vspace*{18pt}}
